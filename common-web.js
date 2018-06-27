@@ -276,7 +276,7 @@
       };
 
       var parentForm = $(inputElement).closest("form");
-      if(parentForm.size() > 0) {
+      if(parentForm.length > 0) {
         inputValues.form = this.elementToProperties(parentForm[0])
       }
 
